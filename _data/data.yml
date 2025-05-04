@@ -136,13 +136,12 @@ certifications:
   title: Certifications
   list:
   - name: AWS Certified Data Engineer - Associate
-    start: 2020
-    end: 2021
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.google.com
-    credentialname: Google
-    details: |
+    start: 2025
+    end: 2028
+    organization: AWS
+    credentialid:
+    credentialurl: https://www.credly.com/badges/69167b09-0caa-4497-8d0e-41c3c46bb77b
+    credentialname: 
       Details about cert. Lorem ipsum dolor sit amet, consectetur
       adipiscing elit.
       Nullam eget orci purus. Nullam ultrices neque nibh.
@@ -157,103 +156,94 @@ certifications:
       justo diam viverra velit, sed rhoncus leo leo eu justo.
       Suspendisse placerat risus ante, sed porta nisi blandit at.
   - name: Databricks - Accredited Generative AI Fundamentals
-    start: 2019
-    end:
-    organization: Microsoft
-    credentialid: 111-222
-    credentialurl: www.github.com
-    credentialname: Github
-    details: |
-      Older certification. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
+    start: 2025
+    end: 2027
+    organization: Databricks
+    credentialid:
+    credentialurl: https://credentials.databricks.com/7881d271-1a81-4d54-9f51-84c4aa1ca797#acc.H7Pzm9Vc
+    credentialname: Daabricks
 
-projects:
-  title: Projects
-  intro: >
-    You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  assignments:
-  - title: Velocity
-    link: "#hook"
-    tagline: "A responsive website template designed to help startups promote, market and sell their products."
+# projects:
+#   title: Projects
+#   intro: >
+#     You can list your side projects in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#   assignments:
+#   - title: Velocity
+#     link: "#hook"
+#     tagline: "A responsive website template designed to help startups promote, market and sell their products."
 
-  - title: DevStudio
-    link: "#"
-    tagline: "A responsive website template designed to help web developers/designers market their services."
+#   - title: DevStudio
+#     link: "#"
+#     tagline: "A responsive website template designed to help web developers/designers market their services."
 
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+#   - title: Tempo
+#     link: "#"
+#     tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#   - title: Atom
+#     link: "#"
+#     tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#   - title: Delta
+#     link: "#"
+#     tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-oss:
-  title: OSS Contributions
-  intro: >
-    You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
-  contributions:
-  - title: Tempo
-    link: "#"
-    tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
+# oss:
+#   title: OSS Contributions
+#   intro: >
+#     You can list your open source software contributions in this section. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum et ligula in nunc bibendum fringilla a eu lectus.
+#   contributions:
+#   - title: Tempo
+#     link: "#"
+#     tagline: "A responsive website template designed to help startups promote their products or services and to attract users &amp; investors"
 
-  - title: Atom
-    link: "#"
-    tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
+#   - title: Atom
+#     link: "#"
+#     tagline: "A comprehensive website template solution for startups/developers to market their mobile apps."
 
-  - title: Delta
-    link: "#"
-    tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
+#   - title: Delta
+#     link: "#"
+#     tagline: "A responsive Bootstrap one page theme designed to help app developers promote their mobile apps"
 
-publications:
-  title: Publications
-  intro: |
-    You can list your publications in this section. Lorem ipsum dolor sit
-    amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
-    bibendum fringilla a eu lectus.
-  papers:
-  - title: The Art of Computer Programming
-    link: "#"
-    authors: Donald E. Knuth
-    conference: Addison-Wesley, 1968
+# publications:
+#   title: Publications
+#   intro: |
+#     You can list your publications in this section. Lorem ipsum dolor sit
+#     amet, consectetur adipiscing elit. Vestibulum et ligula in nunc
+#     bibendum fringilla a eu lectus.
+#   papers:
+#   - title: The Art of Computer Programming
+#     link: "#"
+#     authors: Donald E. Knuth
+#     conference: Addison-Wesley, 1968
 
-  - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
-    link: "#"
-    authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
-    conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
+#   - title: "Genetic Programming III: Darwinian Invention &amp; Problem Solving"
+#     link: "#"
+#     authors: Koza, J.R., Andre, D., Bennett, F.H., Keane, M.A.
+#     conference: "Morgan Kaufmann Publishers Inc., San Francisco, CA, USA, 1st edn. (1999)"
 
-  - title: A syntax directed compiler for Algol 60
+#   - title: A syntax directed compiler for Algol 60
     link: "#"
     authors: Edgar T. Irons
     conference: "Comm. ACM 4 (1961), 51–55"
 
-recommendations:
-  title: Recommendations
-  list:
-  - person: Yareli Perez
-    email: perezyareli@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      Alan Doe is a super employee!
-  - person: Lara Henderson
-    email: larah@example.com
-    phone: 012 345 6789
-    role: General Director at example.com
-    recommendation: |
-      I would like to work with Alan Doe again!
+# recommendations:
+#   title: Recommendations
+#   list:
+#   - person: Yareli Perez
+#     email: perezyareli@example.com
+#     phone: 012 345 6789
+#     role: General Director at example.com
+#     recommendation: |
+#       Alan Doe is a super employee!
+#   - person: Lara Henderson
+#     email: larah@example.com
+#     phone: 012 345 6789
+#     role: General Director at example.com
+#     recommendation: |
+#       I would like to work with Alan Doe again!
 
-      He is a great employee!
+#       He is a great employee!
 
 skills:
   title: Skills &amp; Proficiency
