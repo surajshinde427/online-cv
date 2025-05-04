@@ -1,9 +1,18 @@
-$theme-color: #4DD0B0;          // lighter teal for better contrast on dark backgrounds
-$text-color: #E0E0E0;           // light gray main text
-$text-color-secondary: #B0BEC5; // muted blue-gray for secondary text
-$text-grey: #90A4AE;            // subtle gray-blue for subdued content
-$divider: #333333;              // dark divider lines
-$lighter-grey: #777777;         // soft gray
-$darker-grey: #BBBBBB;          // used for hover/active/labels
-$smoky-white: #121212;          // dark background base
-$heart: #FB866A;                // keep accent coral (same)
+// $theme-color: #4DD0B0;          // lighter teal for better contrast on dark backgrounds
+// $text-color: #E0E0E0;           // light gray main text
+// $text-color-secondary: #B0BEC5; // muted blue-gray for secondary text
+// $text-grey: #90A4AE;            // subtle gray-blue for subdued content
+// $divider: #333333;              // dark divider lines
+// $lighter-grey: #777777;         // soft gray
+// $darker-grey: #BBBBBB;          // used for hover/active/labels
+// $smoky-white: #121212;          // dark background base
+// $heart: #FB866A;                // keep accent coral (same)
+$theme-color: #8AB4F8;          // Soft blue for accents
+$text-color: #E0E0E0;           // Light gray for primary text
+$text-color-secondary: #B0BEC5; // Muted gray-blue for secondary text
+$text-grey: #90A4AE;            // Subtle gray-blue for muted content
+$divider: #2C2C2C;              // Dark divider lines
+$lighter-grey: #666666;         // Light gray for borders
+$darker-grey: #AAAAAA;          // Gray for labels or headings
+$smoky-white: #121212;          // Dark background base
+$heart: #FB866A;         
