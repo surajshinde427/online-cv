@@ -69,7 +69,7 @@ career-profile:
     data pipelines, low-latency stream processing, and ML-integrated platforms using tools like Kafka, Spark, Flink, 
     and Cloudera, Snowflake, AWS and Azure environments. Passionate about delivering scalable and secure data-driven 
     systems that power business intelligence and operational excellence.
-    
+
 experiences:
   title: Experiences
   info:
@@ -119,6 +119,7 @@ experiences:
       - Led cloud migration from Oracle/MySQL to Amazon S3 and Amazon Redshift, improving analytics readiness and reducing infrastructure costs.
       - Worked with serialization frameworks like Avro, ORC, Parquet, and Protocol Buffers for efficient data storage and transmission.
       - Built CI/CD pipelines using GitLab, automating deployment workflows for data pipelines and microservices.
+
 certifications:
   title: Certifications
   list:
@@ -128,27 +129,13 @@ certifications:
     organization: AWS
     credentialid:
     credentialurl: https://www.credly.com/badges/69167b09-0caa-4497-8d0e-41c3c46bb77b
-    credentialname: 
-      Details about cert. Lorem ipsum dolor sit amet, consectetur
-      adipiscing elit.
-      Nullam eget orci purus. Nullam ultrices neque nibh.
-      Aenean fermentum, felis vulputate suscipit accumsan,
-      sem enim bibendum augue, sed convallis arcu lacus at dui.
-      Pellentesque et nibh suscipit, vestibulum turpis eu, semper tortor.
-      Praesent felis nibh, eleifend id eleifend id, dictum id enim.
-      Praesent venenatis erat non augue suscipit consectetur.
-
-      Second paragraph. Sed eleifend enim ante, vitae efficitur purus
-      fringilla vel. Ut euismod, sem sed vulputate venenatis,
-      justo diam viverra velit, sed rhoncus leo leo eu justo.
-      Suspendisse placerat risus ante, sed porta nisi blandit at.
+   
   - name: Databricks - Accredited Generative AI Fundamentals
     start: 2025
     end: 2027
     organization: Databricks
     credentialid:
     credentialurl: https://credentials.databricks.com/7881d271-1a81-4d54-9f51-84c4aa1ca797#acc.H7Pzm9Vc
-    credentialname: Daabricks
 
 education:
   title: Education
@@ -156,12 +143,9 @@ education:
   - degree: Bachelor of Engineering - Computer Science
     university: Dr. Babasaheb Ambedkar Marathwada University
     time: 2014 - 2017
-    details: |
   - degree: Diploma in Computer Engineering
-
     university: A.I.T, Aurangabad
-    time: 2011 - 2014
-    details: |     
+    time: 2011 - 2014   
 
 # projects:
 #   title: Projects
@@ -246,26 +230,26 @@ education:
 #       He is a great employee!
 
 skills:
-  title: Skills &amp; Proficiency
-
+  title: Technical Skills
   toolset:
-  - name: Python & Django
-    level: 98%
-
-  - name: Java
-    level: 98%
-
-  - name: Data Engineer
-    level: 98%
-
-  - name: HTML5 & CSS
-    level: 95%
-
-  - name: Ruby on Rails
-    level: 85%
-
-  - name: Sketch & Photoshop
-    level: 60%
+    - name: Big Data & Real-Time
+      description: Kafka (Streams, Connect), Apache Flink, AWS Kinesis, Azure Event Hubs, Spark, Hadoop, Hive, Snowflake, Redshift
+    - name: ETL & Pipelines
+      description: Talend, AWS Glue, Apache Airflow, Azure Data Factory
+    - name: AWS Services
+      description: S3, Glue, Kinesis, Lambda, Athena, RDS, Redshift, CloudWatch, IAM, EMR, Step Functions
+    - name: Databases
+      description: MySQL, PostgreSQL, MongoDB, AWS RDS, DynamoDB, Azure SQL Database, Cosmos DB
+    - name: Cloud & Infrastructure
+      description: AWS, Azure, Cloudera, Snowflake
+    - name: ML & Analytics
+      description: LLMs, CML, LangChain, Scikit-learn, TensorFlow, Snowflake ML, SageMaker
+    - name: Programming & APIs
+      description: Scala, Python, Java, REST APIs (Spring Boot, FastAPI)
+    - name: Monitoring & Visualization
+      description: Elasticsearch, Kibana, Power BI, QuickSight
+    - name: Data Modeling
+      description: Star schema, Snowflake schema, Data Mart Design
 
 footer: >
   Designed with <i class="fas fa-heart"></i> by <a href="http://themes.3rdwavemedia.com" target="_blank" rel="nofollow">Xiaoying Riley</a>
