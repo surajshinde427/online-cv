@@ -3,13 +3,13 @@
 #
 
 sidebar:
-  position: right # position of the sidebar : left or right
-  about: True # set to False or comment line if you want to remove the "how to use?" in the sidebar
+  position: left # position of the sidebar : left or right
+  about: False # set to False or comment line if you want to remove the "how to use?" in the sidebar
   education: True # set to False if you want education in main section instead of in sidebar
 
   # Profile information
   name: Suraj Shinde
-  tagline: Assistant Vice President | Data Engineer | AWS Certified
+  tagline: Assistant Vice President | Data Engineer | AWS Certified Data Engineer
   avatar: profile.png #place a 100x100 picture inside /assets/images/ folder and provide the name of the file below
 
   # Sidebar links
@@ -38,7 +38,7 @@ sidebar:
     title: Languages
     info:
     - idiom: English
-      level: Native
+      level: Professional
 
     - idiom: Hindi
       level: Native
@@ -69,69 +69,56 @@ career-profile:
     data pipelines, low-latency stream processing, and ML-integrated platforms using tools like Kafka, Spark, Flink, 
     and Cloudera, Snowflake, AWS and Azure environments. Passionate about delivering scalable and secure data-driven 
     systems that power business intelligence and operational excellence.
-education:
-  title: Education
-  info:
-  - degree: Bachelor of Engineering - Computer Science
-    university: Dr. Babasaheb Ambedkar Marathwada University
-    time: 2014 - 2017
-    details: |
-  - degree: Diploma in Computer Engineering
-
-    university: A.I.T, Aurangabad
-    time: 2011 - 2014
-    details: |
-      
-
+    
 experiences:
   title: Experiences
   info:
   - role: Assistant Vice President
     time: 2022 - Present
-    company: Startup Hubs, San Francisco
+    company: OCBC Bank, Singapore
     details: |
-      -Developed a GenAI-powered Data Retrieval Bot with LangChain and Vector Databases (Milvus)that allows business users to retrieve data from enterprise data marts using natural language.
-      Worked extensively in Cloudera-based big data environments, managing distributed data processing workflows and ensuring seamless integration with enterprise data platforms.
-      -Built a Real-Time Location-Based Offers & Geofencing system using Apache Flink and Kafka, resulting in a 50% increase in in-store redemptions.
-      -Led the migration from batch to near real-time data processing using Apache Spark (Scala), reducing query latency by 40% and enabling real-time risk assessment, fraud detection, and transaction monitoring.
-      -Implemented a metadata-driven ETL framework in Scala, streamlining ingestion and transformation workflows and improving operational efficiency by 20%.
-      -Designed a high-throughput Spark with Scala and Kafka Streams-based data processing platform handling millions of daily financial events, ensuring 99.9% fault tolerance.
-      -Developed Kafka connectors & transformers for high-volume schema-less data, improving schema evolution and system scalability.
-      -Led the deployment of Cloudera Kafka & Kafka Connect, enhancing monitoring and real-time data processing.
-      -Created end-to-end data pipelines from source systems to HDFS and Hive Data Warehouse, reducing data ingestion time by 50%.
-      -Ingested financial campaign data from S3 via REST APIs into Cloudera Hadoop, enabling downstream analytics for segmentation and compliance reporting.
-      -Developed interactive Power BI dashboards for securities transaction reports, improving visibility for compliance and internal audit teams, and reducing manual reporting effort by 60%.
+      - Developed a GenAI-powered Data Retrieval Bot with LangChain and Vector Databases (Milvus)that allows business users to retrieve data from enterprise data marts using natural language.
+      - Worked extensively in Cloudera-based big data environments, managing distributed data processing workflows and ensuring seamless integration with enterprise data platforms.
+      - Built a Real-Time Location-Based Offers & Geofencing system using Apache Flink and Kafka, resulting in a 50% increase in in-store redemptions.
+      - Led the migration from batch to near real-time data processing using Apache Spark (Scala), reducing query latency by 40% and enabling real-time risk assessment, fraud detection, and transaction monitoring.
+      - Implemented a metadata-driven ETL framework in Scala, streamlining ingestion and transformation workflows and improving operational efficiency by 20%.
+      - Designed a high-throughput Spark with Scala and Kafka Streams-based data processing platform handling millions of daily financial events, ensuring 99.9% fault tolerance.
+      - Developed Kafka connectors & transformers for high-volume schema-less data, improving schema evolution and system scalability.
+      - Led the deployment of Cloudera Kafka & Kafka Connect, enhancing monitoring and real-time data processing.
+      - Created end-to-end data pipelines from source systems to HDFS and Hive Data Warehouse, reducing data ingestion time by 50%.
+      - Ingested financial campaign data from S3 via REST APIs into Cloudera Hadoop, enabling downstream analytics for segmentation and compliance reporting.
+      - Developed interactive Power BI dashboards for securities transaction reports, improving visibility for compliance and internal audit teams, and reducing manual reporting effort by 60%.
 
   - role: Senior Software Developer
     time: 2021 - 2022
     company: E-Zest Solutions, Pune
     details: |
-      -Led the development of a real-time Sepsis Patient Monitoring system using AWS Kinesis and AWS Redshift, enabling hospitals to detect early signs of sepsis by analyzing continuous patient vitals.
-      -Optimized ETL pipelines using AWS Glue and AWS Redshift, reducing data processing time by 40% and enhancing retrieval efficiency.
-      -Developed and secured REST APIs to integrate IoT-based medical devices using AWS Lambda and AWS DynamoDB, ensuring seamless real-time data flow for clinical decision support.
-      -Developed a real-time Clickstream Study Pattern Detection & Recommendation System for a Nursing Education Platform, leveraging Kafka, and Snowflake to analyze user behavior and recommend personalized learning content.
-      -Implemented machine learning models for real-time student engagement tracking using Kafka streams, improving course completion rates and optimizing personalized learning paths.
-      -Implemented CI/CD pipelines using GitLab, automating deployments and improving healthcare data pipeline reliability by 30%.
+      - Led the development of a real-time Sepsis Patient Monitoring system using AWS Kinesis and AWS Redshift, enabling hospitals to detect early signs of sepsis by analyzing continuous patient vitals.
+      - Optimized ETL pipelines using AWS Glue and AWS Redshift, reducing data processing time by 40% and enhancing retrieval efficiency.
+      - Developed and secured REST APIs to integrate IoT-based medical devices using AWS Lambda and AWS DynamoDB, ensuring seamless real-time data flow for clinical decision support.
+      - Developed a real-time Clickstream Study Pattern Detection & Recommendation System for a Nursing Education Platform, leveraging Kafka, and Snowflake to analyze user behavior and recommend personalized learning content.
+      - Implemented machine learning models for real-time student engagement tracking using Kafka streams, improving course completion rates and optimizing personalized learning paths.
+      - Implemented CI/CD pipelines using GitLab, automating deployments and improving healthcare data pipeline reliability by 30%.
   - role: Software Developer 
-    time: 2012 - 2014
+    time: 2020 - 2021
     company: Datametica, Pune
     details: |
-      -Led the migration of petabytes of data from on-premises to Azure Cloud (Blob Storage, Synapse, and Azure Data Factory), cutting infrastructure costs by 40%.
-      -Developed Spark applications on Azure Databricks for complex data transformations, reducing processing time by 50%.
-      -Built a data warehouse processing framework using Azure Synapse Analytics and Azure Data Factory, improving query performance by 35%
-      -Implemented highly scalable and fault-tolerant systems using Azure Functions, Cosmos DB, and Azure Kubernetes Service (AKS).
+      - Led the migration of petabytes of data from on-premises to Azure Cloud (Blob Storage, Synapse, and Azure Data Factory), cutting infrastructure costs by 40%.
+      - Developed Spark applications on Azure Databricks for complex data transformations, reducing processing time by 50%.
+      - Built a data warehouse processing framework using Azure Synapse Analytics and Azure Data Factory, improving query performance by 35%
+      - Implemented highly scalable and fault-tolerant systems using Azure Functions, Cosmos DB, and Azure Kubernetes Service (AKS).
   - role: Software Developer 
-    time: 2012 - 2014
-    company: Datametica, Pune
+    time: 2017 - 2020
+    company: E-Zest Solutions, Pune
     details: |
-      -Designed and implemented scalable data pipelines using Apache Kafka, AWS Glue, and AWS Redshift, enabling real-time and batch data ingestion for enterprise analytics.
-      -Developed a cloud-based data integration system for a MedTech client using AWS S3, AWS Lambda, and AWS Redshift Spectrum, enabling ingestion and analysis of wearable health device data and streamlining regulatory reporting for patient vitals.
-      -Developed Scala-based REST APIs secured with OAuth 2.0 and Amazon API Gateway, ensuring secure system integration with AWS Redshift and other AWS services.
-      -Optimized SQL queries and data modeling in Amazon Redshift, improving query performance and reducing compute costs by 30%.
-      -Analyzed real-time clickstream data using Apache Kafka and Snowflake to derive business insights.
-      -Led cloud migration from Oracle/MySQL to Amazon S3 and Amazon Redshift, improving analytics readiness and reducing infrastructure costs.
-      -Worked with serialization frameworks like Avro, ORC, Parquet, and Protocol Buffers for efficient data storage and transmission.
-      -Built CI/CD pipelines using GitLab, automating deployment workflows for data pipelines and microservices.
+      - Designed and implemented scalable data pipelines using Apache Kafka, AWS Glue, and AWS Redshift, enabling real-time and batch data ingestion for enterprise analytics.
+      - Developed a cloud-based data integration system for a MedTech client using AWS S3, AWS Lambda, and AWS Redshift Spectrum, enabling ingestion and analysis of wearable health device data and streamlining regulatory reporting for patient vitals.
+      - Developed Scala-based REST APIs secured with OAuth 2.0 and Amazon API Gateway, ensuring secure system integration with AWS Redshift and other AWS services.
+      - Optimized SQL queries and data modeling in Amazon Redshift, improving query performance and reducing compute costs by 30%.
+      - Analyzed real-time clickstream data using Apache Kafka and Snowflake to derive business insights.
+      - Led cloud migration from Oracle/MySQL to Amazon S3 and Amazon Redshift, improving analytics readiness and reducing infrastructure costs.
+      - Worked with serialization frameworks like Avro, ORC, Parquet, and Protocol Buffers for efficient data storage and transmission.
+      - Built CI/CD pipelines using GitLab, automating deployment workflows for data pipelines and microservices.
 certifications:
   title: Certifications
   list:
@@ -162,6 +149,19 @@ certifications:
     credentialid:
     credentialurl: https://credentials.databricks.com/7881d271-1a81-4d54-9f51-84c4aa1ca797#acc.H7Pzm9Vc
     credentialname: Daabricks
+
+education:
+  title: Education
+  info:
+  - degree: Bachelor of Engineering - Computer Science
+    university: Dr. Babasaheb Ambedkar Marathwada University
+    time: 2014 - 2017
+    details: |
+  - degree: Diploma in Computer Engineering
+
+    university: A.I.T, Aurangabad
+    time: 2011 - 2014
+    details: |     
 
 # projects:
 #   title: Projects
