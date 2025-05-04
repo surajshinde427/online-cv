@@ -4,20 +4,18 @@
   <h2 class="section-title">
     <span class="fa-stack fa-xs">
       <i class="fas fa-circle fa-stack-2x"></i>
-      <i class="fas fa-wrench fa-stack-1x fa-inverse"></i>
+      <i class="fas fa-laptop-code fa-stack-1x fa-inverse"></i>
     </span>
     {{ skills.title }}
   </h2>
 
   <div class="skillset">
-    <table class="item">
-      {% for skill in skills.toolset %}
-      <tr>
-        <td class="level-title">{{ skill.name }}</td>
-        <td>{{ skill.level }}%</td>
-      </tr>
-      {% endfor %}
-    </table>
+    {% for skill in skills.toolset %}
+    <div class="item">
+      <div class="level-title">{{ skill.name }}</div>
+      <div class="level-bar">{{ skill.description }}</div>
+    </div>
+    {% endfor %}
   </div>
 </section>
 {% endif %}
