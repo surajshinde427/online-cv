@@ -16,3 +16,18 @@ $sidebar-order: 2;
 
 @import "skins/{{ site.theme_skin | default: 'blue' }}"; // skin
 @import "default"; // main partials
+
+:root {
+    --background-color: #ffffff;
+    --text-color: #000000;
+    --link-color: #1a0dab;
+    /* Add other variables as needed */
+  }
+  
+  /* Dark theme variables */
+  [data-theme='dark'] {
+    --background-color: #121212;
+    --text-color: #ffffff;
+    --link-color: #8ab4f8;
+    /* Add other variables as needed */
+  }
